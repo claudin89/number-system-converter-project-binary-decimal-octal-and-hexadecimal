@@ -31,7 +31,9 @@ O programa realiza a conversão bidirecional entre os principais sistemas de num
 
 ## 💻 Como Compilar e Executar
 
-### Pelo Terminal (GCC / MinGW)
-```bash
-g++ conversor.cpp -o conversor
-./conversor
+### Pelo Prompt de Comando do Windows (`cmd`) ou Terminal (GCC / MinGW)
+1. Navegue até a pasta onde o arquivo `conversor.cpp` está salvo (`cd caminho\da\pasta`).
+2. Compile e execute um comando por vez:
+```cmd
+g++ conversor.cpp -o conversor.exe
+conversor.exe
